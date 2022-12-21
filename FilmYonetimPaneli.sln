@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{186049D0-2CFC-4DEE-BF4C-F95C145B5426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{03FE6218-D351-4A15-8277-B5EE1B4E7399}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmYonetimPaneli.Domain", "src\Core\FilmYonetimPaneli.Domain\FilmYonetimPaneli.Domain.csproj", "{6BBE5EDC-0961-4500-A2AD-E4E7585698F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmYonetimPaneli.Application", "src\Core\FilmYonetimPaneli.Application\FilmYonetimPaneli.Application.csproj", "{F12BC62A-235F-4C6C-B092-A543C6455A7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4DA6C3BD-1717-46E5-82D0-57C5CCE4B6CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilmYonetimPaneli.Persistence", "src\Infrastructure\FilmYonetimPaneli.Persistence\FilmYonetimPaneli.Persistence.csproj", "{E5A9881A-FB07-44DA-9AE6-5D7593FE30B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{39E3D1FE-843C-4047-88FA-2AC6A3C50CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmYonetimPaneli.WebApi", "src\Presentation\FilmYonetimPaneli.WebApi\FilmYonetimPaneli.WebApi.csproj", "{3EC8D7D9-E38D-4617-A6C3-67BB12929B75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BBE5EDC-0961-4500-A2AD-E4E7585698F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBE5EDC-0961-4500-A2AD-E4E7585698F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBE5EDC-0961-4500-A2AD-E4E7585698F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBE5EDC-0961-4500-A2AD-E4E7585698F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12BC62A-235F-4C6C-B092-A543C6455A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12BC62A-235F-4C6C-B092-A543C6455A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12BC62A-235F-4C6C-B092-A543C6455A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12BC62A-235F-4C6C-B092-A543C6455A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A9881A-FB07-44DA-9AE6-5D7593FE30B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A9881A-FB07-44DA-9AE6-5D7593FE30B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A9881A-FB07-44DA-9AE6-5D7593FE30B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A9881A-FB07-44DA-9AE6-5D7593FE30B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC8D7D9-E38D-4617-A6C3-67BB12929B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC8D7D9-E38D-4617-A6C3-67BB12929B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC8D7D9-E38D-4617-A6C3-67BB12929B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC8D7D9-E38D-4617-A6C3-67BB12929B75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03FE6218-D351-4A15-8277-B5EE1B4E7399} = {186049D0-2CFC-4DEE-BF4C-F95C145B5426}
+		{6BBE5EDC-0961-4500-A2AD-E4E7585698F1} = {03FE6218-D351-4A15-8277-B5EE1B4E7399}
+		{F12BC62A-235F-4C6C-B092-A543C6455A7D} = {03FE6218-D351-4A15-8277-B5EE1B4E7399}
+		{4DA6C3BD-1717-46E5-82D0-57C5CCE4B6CA} = {186049D0-2CFC-4DEE-BF4C-F95C145B5426}
+		{E5A9881A-FB07-44DA-9AE6-5D7593FE30B6} = {4DA6C3BD-1717-46E5-82D0-57C5CCE4B6CA}
+		{39E3D1FE-843C-4047-88FA-2AC6A3C50CA8} = {186049D0-2CFC-4DEE-BF4C-F95C145B5426}
+		{3EC8D7D9-E38D-4617-A6C3-67BB12929B75} = {39E3D1FE-843C-4047-88FA-2AC6A3C50CA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAF23D9C-FFA3-4ACF-9094-229D44B07176}
+	EndGlobalSection
+EndGlobal
